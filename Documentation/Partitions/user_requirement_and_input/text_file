@@ -1,0 +1,35 @@
+Inputs for the Software
+
+1.Possible range of temperature in which software should work (in a particular experiment) will also be an input(manual) 
+in the software. 
+
+2.GPIB address value will be inputted in the software by the user,if it match with device GPIB address then software will 
+connect with hardware device. If it is not matched then change the value of GPIB address in software or device such that 
+they become same in both.
+
+3.Current in ohmmeter, dimensions of test sample will also be an input for the software.
+
+4.Temperature difference value must be inputted by the user so that the software can take reading  for  discrete temperature 
+points(depends on gradient) .
+
+
+
+Client Requirements: 
+
+1. User must input the temperature difference (before starting the process each time) using which the corresponding input 
+through the High Resistance Meter should be taken.
+Software must take input of range of temperature in which the reading has to be taken.
+
+2.If temperature controller reaches its lowest temperature point (as inputted by user) then software will automatically 
+change from cooling to heating mode  and stop the loops when it  reaches the highest point again.
+
+3.There should be combined and separate graph of cooling and heating mode for a particular experiment(test sample).
+
+
+4.Software will take reading from High Resistance Meter when the temperature of the test sample reaches the value inputted 
+in software(discrete temperatures value).But if it does not reach that particular temperature point and fluctuates nearby 
+then the software will take reading after a particular time (depends on temperature difference) if the value is differ from 
+the original one, less than or equal times a given constant(inbuilt in the software). 
+
+5.On taking reading, software take 5 to 8 readings in interval of some nanoseconds continuously and then make average of that
+readings. Average value will be final reading of resistance at that temperature and also reduces error from the readings . 
