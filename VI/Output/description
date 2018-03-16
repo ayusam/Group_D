@@ -1,0 +1,2 @@
+The labVIEW file named "data_inp(1).vi" does the work of plotting the final graph between the temperature and voltage value read from the temperature controller and the electrometer respectively.
+The labVIEW file named "Test_1.vi" does the work of plotting the final graph between the temperature and resistivity from data stored as a text file on the system.
