@@ -1,0 +1,3 @@
+For a particular voltage from the voltage source. 
+Whenever is the loop true then it will take voltage readings from resistance meter at different instants of time(manually input by user)
+and then it average it and return error and averaged value as output.
