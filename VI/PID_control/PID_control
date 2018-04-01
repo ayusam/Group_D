@@ -1,0 +1,10 @@
+This VI contains a logical program based on  temperature controlling using PID Algorithm.
+This Algorithm make the heating-cooling process more time efficient for the whole system to complete the process.
+Here we have to insert variables like
+1)Gain
+2)Reset
+3)Rate
+4)Manual Output(20 - 30)
+5)heater power(low/med/high) 
+6)Setpoint (To be achieve)
+Set PID control to manual setting then set above variables accordingly.
