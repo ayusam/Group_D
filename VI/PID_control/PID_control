@@ -8,3 +8,17 @@ Here we have to insert variables like
 5)heater power(low/med/high) 
 6)Setpoint (To be achieve)
 Set PID control to manual setting then set above variables accordingly.
+
+
+PID (Proportional Integral Derivative)
+The basic idea behind a PID controller is to read a sensor, then compute the desired actuator output by calculating proportional, integral, and derivative responses and summing those three components to compute the output.
+Proportional Response-
+The proportional component depends only on the difference between the set point and the process variable. This difference is referred to as the Error term. The proportional gain (Kc) determines the ratio of output response to the error signal. 
+
+Integral Response-
+The effect of this is to drive the Steady-State error to zero. Steady-State error is the final difference between the process variable and set point.
+
+Derivative Response-
+The derivative component causes the output to decrease if the process variable is increasing rapidly.  Increasing the derivative time  parameter will cause the control system to react more strongly to changes in the error term and will increase the speed of the overall control system response.
+
+So these are some basics of PID used by machine to function and hence it is important to control them.
