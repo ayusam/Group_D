@@ -16,6 +16,10 @@
 			<Item Name="Working_current_reading" Type="Document" URL="../../VI/current_measure/Working_current_reading"/>
 			<Item Name="Working_CurrentANDvoltage_readings.md" Type="Document" URL="../../VI/current_measure/Working_CurrentANDvoltage_readings.md"/>
 		</Item>
+		<Item Name="error" Type="Folder">
+			<Item Name="error.vi" Type="VI" URL="../../VI/error/error.vi"/>
+			<Item Name="error_function" Type="Document" URL="../../VI/error/error_function"/>
+		</Item>
 		<Item Name="Output" Type="Folder">
 			<Item Name="data_inp(1).vi" Type="VI" URL="../../VI/Output/data_inp(1).vi"/>
 			<Item Name="data_inp(2).vi" Type="VI" URL="../../VI/Output/data_inp(2).vi"/>
@@ -40,6 +44,7 @@
 			<Item Name="Temp_controller_with_cooling.vi" Type="VI" URL="../../VI/Temp_controller/Temp_controller_with_cooling.vi"/>
 			<Item Name="temperature_controller.vi" Type="VI" URL="../../VI/Temp_controller/temperature_controller.vi"/>
 		</Item>
+		<Item Name="final_VI.vi" Type="VI" URL="../../VI/final_VI.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Keithley 6517.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 6517/Keithley 6517.lvlib"/>
