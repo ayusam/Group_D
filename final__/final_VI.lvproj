@@ -20,6 +20,10 @@
 			<Item Name="error.vi" Type="VI" URL="../../VI/error/error.vi"/>
 			<Item Name="error_function" Type="Document" URL="../../VI/error/error_function"/>
 		</Item>
+		<Item Name="final_integrated_vi" Type="Folder">
+			<Item Name="details.md" Type="Document" URL="../../VI/final_integrated_vi/details.md"/>
+			<Item Name="final_VI.vi" Type="VI" URL="../../VI/final_integrated_vi/final_VI.vi"/>
+		</Item>
 		<Item Name="Output" Type="Folder">
 			<Item Name="data_inp(1).vi" Type="VI" URL="../../VI/Output/data_inp(1).vi"/>
 			<Item Name="data_inp(2).vi" Type="VI" URL="../../VI/Output/data_inp(2).vi"/>
